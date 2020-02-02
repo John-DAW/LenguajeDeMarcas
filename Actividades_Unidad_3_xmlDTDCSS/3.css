@@ -1,0 +1,79 @@
+leyes{
+    background-color: aqua;
+}
+
+titulo{
+    display: none;
+}
+
+murphy > tipo{
+    display: block;
+    font-family: Arial;
+    font-size: 200%;
+    font-weight: bolder;
+    margin: 20px;
+    border-top: 5px solid blue;
+}
+
+murphy > ley{
+    display: table-cell;
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+murphy > ley::first-letter{
+    color: blue;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+
+ginsgberg > tipo{
+    display: block;
+    font-size: 200%;
+    margin: 20px;
+    font-family: Arial;
+    font-weight: bolder;
+    border-top: 5px solid blue;
+}
+
+ginsgberg > ley{
+    display: table-cell;
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+ginsgberg > ley::first-letter{
+    color: blue;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+otras > tipo{
+    display: block;
+    font-size: 200%;
+    margin: 30px;
+    font-family: Arial;
+    font-weight: bolder;
+    border-top: 5px solid blue;
+}
+
+otras > ley{
+    display: table-cell;
+    font-family:  Helvetica;
+    background-color: white;
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+otras > ley::first-letter{
+    color: blue;
+    font-weight: bolder;
+    font-size: x-large;
+}
+

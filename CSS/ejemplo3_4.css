@@ -1,0 +1,41 @@
+ies {
+    font-family: Helvetica;
+  }
+  
+nombreCentro {
+    display: none;
+    font-size: 150%;
+    margin: 10px;
+}
+
+web {
+    display: block;
+    margin: 10px;
+}
+  
+ciclos {
+    display: table;
+    border-spacing: 10px;
+
+}
+  
+ciclo {
+    display: table-caption;
+    border: 1px solid black;
+    margin: 10px;
+}
+  
+nombre {
+    display: tables;
+    background-color: lightgreen;
+    padding: 10px;
+    width: 350px;
+    margin: 10px;
+}
+  
+grado, decretoTitulo {
+    display: inline-table;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}

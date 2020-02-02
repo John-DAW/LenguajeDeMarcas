@@ -1,0 +1,72 @@
+software-libre{
+    background-color: pink;
+}
+
+/*Título de la tabla */
+lanzamientos {
+    display: block;
+}
+
+lanzamientos:before{
+    content: "DISTRIBUCIONES DE SOFTWARE LIBRE";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+
+distribuciones{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 50px 10px;
+
+}
+distribucion{
+    display: table-row;
+}
+
+distribucion nombre {
+    display: table-cell;
+    font-weight: bold;
+
+}
+
+distribucion web {
+    display: table-cell;
+}
+
+distribucion nacimiento {
+    display: table-cell;
+}
+
+distribucion derivada {
+    display: none;
+}
+
+escritorio {
+    display: list-item;
+    list-style: square inside;
+    margin-left: 40px;
+}
+
+escritorio > nombre {
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+escritorio web::before {
+    content: "(";
+}
+
+escritorio > web::after {
+    content: "),";
+}
+
+escritorio > nacimiento::before{
+    content: " aparecido en ";
+}
+
+kernels{
+    display: none;
+}
+

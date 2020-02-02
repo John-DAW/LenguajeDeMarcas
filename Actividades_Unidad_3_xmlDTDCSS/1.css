@@ -1,0 +1,56 @@
+/* Color de fondo */
+geografia{
+    background-color: #FFDEAD;
+}
+
+/* Mostrar Países */
+continentes:before{
+    content: "Países";
+    font-size: 200%;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* Seleccionar el sub elemento pais del Elemento Continente */
+continente > pais{
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+/* No aparezcan los Elementos: Paises */
+paises{
+    display: none;
+}
+
+
+/*Mostrar Ríos */
+rios:before{
+    content: "Ríos";
+    font-size: 200%;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+
+rios{
+    display: table-row;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+
+rio{
+    display: block;
+    font-family: Helvetica;
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+rio > nombre {
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+biblioteca {
+  font-family: Helvetica, sans-serif;
+}
+
+libro {
+  background-color: lightgreen;
+  border: black 1px solid;
+  margin: 10px;
+  padding: 10px;
+}
+
+libro, titulo, autor, fechaPublicacion {
+  display: block;
+}
+
+titulo {
+  font-weight: bold;
+}
+
+fechaPublicacion {
+  display: block;
+}
+
+

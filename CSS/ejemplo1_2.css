@@ -1,0 +1,14 @@
+titulo {
+    display: block;
+    font-weight: bold;
+  }
+
+autor{
+  display: block;
+}
+
+fechaPublicacion {
+  display: block;
+  border-bottom: black 1px solid;
+  margin-bottom: 10px;
+}

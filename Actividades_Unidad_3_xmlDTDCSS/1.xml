@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="1.css" ?>
+<!DOCTYPE geografia SYSTEM "geografia.dtd">
+<geografia>
+  <continentes>
+    <continente nombre="Europa">
+      <país>España</país>
+      <país>Francia</país>
+      <país>Suiza</país>
+    </continente>
+    <continente nombre="América">
+      <país>Argentina</país>
+      <país>Jamaica</país>
+      <país>Uruguay</país>
+    </continente>
+  </continentes>
+  <paises>
+    <pais nombre="España">
+      <sistema>monarquía</sistema>
+      <superficie>504645</superficie>
+      <moneda>euro</moneda>
+      <moneda antigua="antigua">peseta</moneda>
+      <idioma>español</idioma>
+    </pais>
+    <pais nombre="Francia">
+      <sistema>república</sistema>
+      <superficie>675417</superficie>
+      <moneda>euro</moneda>
+      <moneda antigua="antigua">franco francés</moneda>
+      <idioma>francés</idioma>
+    </pais>
+    <pais nombre="Suiza">
+      <sistema>república</sistema>
+      <superficie>41290</superficie>
+      <moneda>franco suizo</moneda>
+      <idioma>francés</idioma>
+    </pais>
+    <pais nombre="Uruguay">
+      <sistema>república</sistema>
+      <superficie>176215</superficie>
+      <moneda>peso uruguayo</moneda>
+      <idioma>español</idioma>
+    </pais>
+    <pais nombre="Argentina">
+      <sistema>república</sistema>
+      <superficie>2780400</superficie>
+      <moneda>peso argentino</moneda>
+      <idioma>español</idioma>
+    </pais>
+    <pais nombre="Jamaica">
+      <sistema>monarquía</sistema>
+      <superficie>10991</superficie>
+      <moneda>dólar jamaicano</moneda>
+      <idioma>inglés</idioma>
+    </pais>
+  </paises>
+  <rios>
+    <rio>
+      <nombre>Uruguay</nombre>
+      <país>Argentina</país>
+      <país>Uruguay</país>
+    </rio>
+    <rio>
+      <nombre>Ródano</nombre>
+      <país>Suiza</país>
+      <país>Francia</país>
+    </rio>
+    <rio>
+      <nombre>Bidasoa</nombre>
+      <país>España</país>
+      <país>Francia</país>
+    </rio>
+  </rios>
+</geografia>
+  

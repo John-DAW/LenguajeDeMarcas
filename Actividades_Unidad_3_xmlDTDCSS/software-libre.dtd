@@ -1,0 +1,25 @@
+<!ELEMENT software-libre (lanzamientos, distribuciones, escritorios, kernels)>
+<!ELEMENT lanzamientos (lanzamiento*)>
+<!ELEMENT lanzamiento (#PCDATA)>
+<!ELEMENT distribuciones (distribucion*)>
+<!ELEMENT distribucion (nombre,web,nacimiento,derivada?)*>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT nacimiento (#PCDATA)>
+<!ELEMENT derivada (#PCDATA)>
+<!ELEMENT escritorios (escritorio)*>
+<!ELEMENT escritorio (nombre, web, nacimiento)>
+<!ELEMENT kernels (kernel*)>
+<!ELEMENT kernel EMPTY>
+
+<!ATTLIST lanzamiento distribucion NMTOKENS #REQUIRED>
+<!ATTLIST lanzamiento version NMTOKENS #REQUIRED>
+<!ATTLIST lanzamiento año NMTOKENS #REQUIRED>
+<!ATTLIST lanzamiento mes NMTOKENS #REQUIRED>
+<!ATTLIST lanzamiento escritorio NMTOKENS #REQUIRED>
+<!ATTLIST lanzamiento kernel NMTOKENS #REQUIRED>
+<!ATTLIST distribucion id ID #REQUIRED>
+<!ATTLIST escritorio id ID #REQUIRED>
+<!ATTLIST kernel id NMTOKENS #REQUIRED>
+<!ATTLIST kernel año NMTOKENS #REQUIRED>
+<!ATTLIST kernel mes NMTOKENS #REQUIRED>

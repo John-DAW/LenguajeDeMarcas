@@ -1,0 +1,33 @@
+ies {
+  display: block;
+}
+
+nombreCentro{
+  display: block;
+}
+
+web{
+  display: block;
+}
+
+ciclos{
+  display: list-item;
+}
+ciclo{
+  display: list-item;
+}
+nombre{
+  display: list-item;
+  list-style: disc inside;
+  margin-left: 10px;
+}
+grado{
+  display: list-item;
+  list-style: disc inside;
+  margin-left: 10px;
+}
+decretoTitulo{
+  display: list-item;
+  list-style: disc inside;
+  margin-left: 10px;
+}

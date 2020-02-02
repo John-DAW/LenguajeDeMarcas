@@ -1,0 +1,26 @@
+agenda, contacto, nombre, telefonoFijo, telefonoMovil {
+	display: block;
+	text-indent: 3vw;
+}
+
+agenda {
+ border-spacing: 20px;
+ font-family: sans-serif;
+ background-color: lightgrey;
+}
+
+contacto {
+  border: black 2px solid;
+  margin: 10px;
+}
+nombre {
+  border: black 1px solid;
+  background-color: white;
+  font-weight: bold;
+  padding-left: 5px;
+}
+	
+telefonoFijo, telefonoMovil {
+  background-color: lightgreen;
+  padding-left: 5px;
+}

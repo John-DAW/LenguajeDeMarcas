@@ -1,0 +1,7 @@
+<!ELEMENT leyes (titulo, murphy, ginsgberg, otras)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT murphy (tipo, ley*)>
+<!ELEMENT ginsgberg (tipo, ley*)>
+<!ELEMENT otras (tipo, ley*)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT ley (#PCDATA)>
