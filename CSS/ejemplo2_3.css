@@ -15,14 +15,13 @@ web{
   margin-bottom: 10px;
 }
 
-grado{
-  display: list-item;
-  list-style: lower-roman;
-  margin-left: 10px;
+ciclo{
+  margin: 20px;
 }
 
-decretoTitulo{
+grado, nombre, decretoTitulo{
   display: list-item;
-  list-style: lower-roman;
-  margin-left: 10px;
+  list-style: lower-latin;
+  margin-left: 40px;
 }
+

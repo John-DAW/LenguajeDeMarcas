@@ -2,6 +2,7 @@
 <?xml-stylesheet href="ejemplo3_3.css"?>
 <ies>
   <nombreCentro>IES Abastos</nombreCentro>
+  <web>http://www.iesabastos.org</web>
   <ciclos>
     <ciclo id="ASIR">
       <nombre>Administración de Sistemas Informáticos en Red</nombre>
@@ -25,5 +26,3 @@
     </ciclo>
   </ciclos>
 </ies>
-
-<!-- Revise -->

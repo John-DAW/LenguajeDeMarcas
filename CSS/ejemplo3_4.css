@@ -3,39 +3,34 @@ ies {
   }
   
 nombreCentro {
-    display: none;
+    display: block;
+    float: right;
     font-size: 150%;
     margin: 10px;
 }
 
 web {
     display: block;
+    float: left;
     margin: 10px;
 }
   
 ciclos {
+    clear: both;
     display: table;
     border-spacing: 10px;
-
+    margin: auto;
 }
   
 ciclo {
-    display: table-caption;
+    display: table;
     border: 1px solid black;
     margin: 10px;
 }
   
-nombre {
-    display: tables;
+nombre, grado, decretoTitulo {
+    display: table-row;
     background-color: lightgreen;
-    padding: 10px;
-    width: 350px;
-    margin: 10px;
-}
-  
-grado, decretoTitulo {
-    display: inline-table;
-    border: 1px solid black;
     padding: 10px;
     margin: 10px;
 }

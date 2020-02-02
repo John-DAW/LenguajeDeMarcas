@@ -1,36 +1,47 @@
 ies {
     font-family: Helvetica;
-  }
-  
+} 
+
 nombreCentro {
     display: block;
     font-size: 150%;
-    margin: 10px;
+    float: left;
 }
-  
-ciclos {
+
+web {
+    display: block;
+    font-size: 150%;
+    float: right;
+}
+
+ciclos{
+    display: block;
+    clear: both; /* Clear Floats*/
+}
+
+
+ciclo{
     display: table;
     border-spacing: 10px;
+    border: 1px solid black;
+    margin: auto;
+    width: 50%;
 
 }
-  
-ciclo {
-    display: table-row;
-    border: 1px solid black;
-    margin: 10px;
-}
-  
-nombre {
+
+ciclo nombre{
     display: table-caption;
-    background-color: rgb(221, 221, 221);
-    padding: 10px;
-    width: 350px;
-    margin: 10px;
-}
-  
-grado, decretoTitulo {
-    display: inline-table;
+    text-align: center;
+    background-color: grey;
     border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
+    margin-top: 10px;
 }
+
+ciclo grado, decretoTitulo {
+    display: table-cell;
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
